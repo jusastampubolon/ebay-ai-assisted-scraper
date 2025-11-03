@@ -50,7 +50,9 @@ This project demonstrates AI-assisted development:
 - Reliable: Consistent performance without AI service dependencies
 
 ## 📁 Project Structure
-  src/
+
+```
+src/
 ├── app.js                 # Main Express server
 ├── routes/
 │   └── scraper.js         # API routes
@@ -59,7 +61,7 @@ This project demonstrates AI-assisted development:
 └── utils/
     ├── parser.js          # HTML parsing utilities
     └── pagination.js      # Pagination helpers
-
+```
 ## 🛡️ Error Handling
 The API gracefully handles:
 

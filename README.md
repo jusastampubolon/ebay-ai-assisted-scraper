@@ -5,7 +5,7 @@ AI-assisted eBay web scraper API built with Node.js. Uses AI during development 
 ## 🚀 Features
 
 - **AI-Assisted Development**: Leveraged AI for optimal CSS selector design and architecture planning
-- **Traditional Runtime**: Uses Cheerio + Axios for reliable, cost-effective scraping
+- **Traditional Runtime**: Uses Cheerio + Puppeteer for reliable, cost-effective scraping
 - **Pagination Support**: Automatically scrapes all products across multiple pages
 - **Robust Error Handling**: Graceful handling of missing data and network issues
 - **JSON API**: Clean RESTful API returning structured JSON data
@@ -14,7 +14,7 @@ AI-assisted eBay web scraper API built with Node.js. Uses AI during development 
 ## 🛠️ Tech Stack
 
 - **Backend**: Node.js + Express.js
-- **Scraping**: Cheerio (HTML parsing) + Axios (HTTP requests)
+- **Scraping**: Puppeteer (Browser automation) + Cheerio (HTML parsing)
 - **AI Assistance**: Used during development only (no runtime dependencies)
 
 ## 📦 Installation
@@ -29,6 +29,8 @@ npm install
 
 # Start server
 npm start
+
+**Note**: This project uses Puppeteer which will automatically download Chrome/Chromium during installation.
 ```
 
 ## 🎯 API Usage
@@ -45,7 +47,7 @@ This project demonstrates AI-assisted development:
 - Error Handling: AI helped design comprehensive error handling patterns
 
 ### Final Implementation:
-- Zero AI Runtime Dependencies: Pure traditional scraping with Cheerio + Axios
+- Zero AI Runtime Dependencies: Pure traditional scraping with Puppeteer + Cheerio
 - Cost-Effective: No ongoing API costs
 - Reliable: Consistent performance without AI service dependencies
 

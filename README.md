@@ -77,6 +77,7 @@ json
     "scrape": "GET /api/scrape?keyword=product_name&pages=number"
   }
 }
+```
 🔧 Development Approach
 This project demonstrates AI-assisted development:
 

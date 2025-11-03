@@ -8,11 +8,17 @@
     "dev": "nodemon src/app.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
     "axios": "^1.6.0",
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "puppeteer": "^24.27.0"
   },
-  "keywords": ["ebay", "scraper", "api", "ai-assisted"],
+  "keywords": [
+    "ebay",
+    "scraper",
+    "api",
+    "ai-assisted"
+  ],
   "author": "Your Name",
   "license": "MIT"
 }

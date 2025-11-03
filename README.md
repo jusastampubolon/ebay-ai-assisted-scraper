@@ -21,7 +21,7 @@ AI-assisted eBay web scraper API built with Node.js. Uses AI during development 
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/ebay-ai-assisted-scraper.git
+git clone https://github.com/jusastampubolon/ebay-ai-assisted-scrape.git
 cd ebay-ai-assisted-scraper
 
 # Install dependencies

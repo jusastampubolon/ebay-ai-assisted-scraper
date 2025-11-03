@@ -1,0 +1,18 @@
+{
+  "name": "ebay-ai-assisted-scraper",
+  "version": "1.0.0",
+  "description": "AI-assisted eBay web scraper API built with Node.js",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "keywords": ["ebay", "scraper", "api", "ai-assisted"],
+  "author": "Your Name",
+  "license": "MIT"
+}

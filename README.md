@@ -27,6 +27,8 @@ cd ebay-ai-assisted-scraper
 # Install dependencies
 npm install
 
+npm install puppeteer
+
 # Start server
 npm start
 
